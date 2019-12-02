@@ -7,7 +7,7 @@ def mathing(num):
 	return (math.floor(returnnumber)) - 2
 
 
-with open('./input2.txt') as fp:
+with open('./input.txt') as fp:
 	for line in fp.readlines():
 		while mathing(line) > 0:
 			line = mathing(line)
