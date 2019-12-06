@@ -13,7 +13,6 @@ for num in workinglist:
 	else:
 		pass
 
-part2list = []
 count = 0
 for num in smallerlist:
 	templist = []
@@ -29,7 +28,6 @@ for num in smallerlist:
 	templist.append(num.count('0'))
 
 	if 2 in templist:
-		part2list.append(num)
 		count += 1
 	else:
 		pass
